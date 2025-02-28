@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+.navbar-icon-container {
+  color: #EF7021;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 1px solid #ffc9c9;
+  border-radius: 4px;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.navbar-icon-container .material-symbols-outlined {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: #EF7021;
+}
+
+.navbar-icon-container:hover {
+  color: white;
+  background: #EF7021;
+}
+
+.navbar-icon-container:hover .material-symbols-outlined {
+  color: white;
+}
+
+.body-head-option-container {
+  color: #EF7021;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2.5rem;
+  width: 8rem;
+  border: 1px solid #ffc9c9;
+  border-radius: 4px;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.body-head-option-container .material-symbols-outlined {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: #EF7021;
+}
+
+.body-head-option-container:hover {
+  color: white;
+  background: #EF7021;
+}
+
+.body-head-option-container:hover .material-symbols-outlined {
+  color: white;
+}
+
+.body-head-search-container {
+  color: #7F7F7F;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2.5rem;
+  width: 40rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid #E6E6E6;
+  border-radius: 4px;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.body-head-search-container .material-symbols-outlined {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: #7F7F7F;
+}
+
+.title {
+  color: #EF7021;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.title:hover {
+  color: red;
+}
